@@ -1,0 +1,52 @@
+* {
+    border: solid 0.5px gray;
+}
+
+html, body {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+body {
+    box-sizing: border-box;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+nav > ol {
+    display: flex;
+    width: 100%;
+}
+
+nav > ol li {
+    margin-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.diagram {
+    min-height: 300px;
+    min-width: 300px;
+    margin: 0 auto;
+    background: #efefef;
+}
+
+.step_details {
+    display: none;
+}
+
+.step_details:target {
+    display: block;
+}
