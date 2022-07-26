@@ -6,6 +6,7 @@
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
     <title>SendSafely&ndash;Zendesk Integration</title>
 </head>
 <body>
@@ -14,34 +15,22 @@
         <h1>SendSafely-Zendesk Integration</h1>
     </header>
     <section>
-        <figure>
+        <figure id="step_figure">
             <img src="" alt="" class="diagram">
             <figcaption>
-                Something, something
+                This will be replaced
             </figcaption>
         </figure>
         <nav>
             <h2>Steps</h2>
-            <ol>
-                <li><a href="#step-1">Sidebar App</a></li>
-                <li><a href="#step-2">Macrolink</a></li>
-                <li><a href="#step-3">Create Connector</a></li>
-                <li><a href="#step-4">Complete Connection</a></li>
+            <ol id="step_selection">
+                <li class="step_select"><a class="step_select" href="#step-1">Sidebar App</a></li>
+                <li class="step_select"><a class="step_select" href="#step-2">Macrolink</a></li>
+                <li class="step_select"><a class="step_select" href="#step-3">Create Connector</a></li>
+                <li class="step_select"><a class="step_select" href="#step-4">Complete Connection</a></li>
             </ol>
         </nav>
-        <section>
-            <section class="step_details" id="step-1">
-                <h2>Details: Sidebar App</h2>
-            </section>
-            <section class="step_details" id="step-2">
-                <h2>Details: Create macrolink to Dropzone</h2>
-            </section>
-            <section class="step_details" id="step-3">
-                <h2>Details: Create Dropzone&ndash;Zendesk Connector</h2>
-            </section>
-            <section class="step_details" id="step-4">
-                <h2>Details: Configure Dropzone to use Dropzone&ndash;Zendesk</h2>
-            </section>
+        <section id="step">
         </section>
     </section>
 </main>
