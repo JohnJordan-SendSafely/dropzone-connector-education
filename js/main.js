@@ -1,8 +1,12 @@
 const stepDetails = {
     1: {
-        name: "Sidebar App",
-        h2: "Install Sidebar App",
-        content: "something, something, from JS",
+        name: "Agent App",
+        h2: "Install Agent App",
+        content: `<p>
+             The agent app can be installed directly from the <a href="https://www.zendesk.com/marketplace/">Zendesk Marketplace</a>
+             </p>
+             <p>Guidance on using the Agent App can be found <a href="https://sendsafely.zendesk.com/hc/en-us/articles/360035678771-Installing-the-Zendesk-Agent-App">here</a>.</p>
+            `,
         figContent: "Some more details here"
     },
     2: {
